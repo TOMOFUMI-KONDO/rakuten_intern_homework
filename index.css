@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #111;
+    color: #eee;
+}
+
+body > * {
+    max-width: 90%;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+    margin: 50px auto;
+    font-size: 48px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.name {
+    width: 240px;
+    height: 2em;
+    margin-bottom: 3em;
+}
+
+input.submit {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background: #466ab8;
+  color: #FFF;
+  border: none;
+}
+
+input.submit:hover {
+  cursor: pointer;
+  background: #558ad8;
+}

@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #111;
+    color: #eee;
+}
+
+body > * {
+    max-width: 90%;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.result {
+    margin-top: 5em;
+}
+
+.result span {
+    font-size: 42px;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #aaa;
+}
